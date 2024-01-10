@@ -55,6 +55,7 @@ set shiftround
 set expandtab                     " Use spaces instead of tabs.
 au FocusGained,BufEnter * checktime
 
+set clipboard=unnamed             " Enable OS clipboard to properly paste in to VIM buffer.
 set pastetoggle=<F2>
 
 if (has("termguicolors"))
@@ -77,3 +78,6 @@ set lazyredraw
 
 set shortmess+=IF
 set shortmess-=S " Show search matches count on search
+
+" Load all the other config files
+runtime! config/**/*.vim

@@ -7,3 +7,18 @@
 [submodule "palenight.vim"]
 	path = palenight.vim
 	url = git@github.com:drewtempelmeyer/palenight.vim.git
+[submodule "vim-colors-pencil"]
+	path = vim-colors-pencil
+	url = git@github.com:preservim/vim-colors-pencil.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule "goyo.vim"]
+	path = goyo.vim
+	url = git@github.com:junegunn/goyo.vim.git
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = git@github.com:preservim/vim-markdown.git

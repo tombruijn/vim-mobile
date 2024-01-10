@@ -85,8 +85,6 @@ set lazyredraw
 set shortmess+=IF
 set shortmess-=S " Show search matches count on search
 
-colorscheme palenight
-
 " Load all the other config files
 " The `vim-mobile` path is the subdirectory in which this repo is cloned on
 " the mobile device.

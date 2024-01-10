@@ -88,4 +88,16 @@ set shortmess-=S " Show search matches count on search
 " Load all the other config files
 " The `vim-mobile` path is the subdirectory in which this repo is cloned on
 " the mobile device.
-runtime! vim-mobile/config/**/*.vim
+source vim-mobile/config/autocomplete.vim
+source vim-mobile/config/cursor.vim
+source vim-mobile/config/goyo.vim
+source vim-mobile/config/history.vim
+source vim-mobile/config/indenting.vim
+source vim-mobile/config/markdown.vim
+source vim-mobile/config/nerdtree.vim
+source vim-mobile/config/search.vim
+source vim-mobile/config/shortcuts.vim
+source vim-mobile/config/themes.vim
+source vim-mobile/config/trailing_whitespace.vim
+
+call Load_default_theme()

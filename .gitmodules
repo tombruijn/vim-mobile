@@ -22,3 +22,12 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git@github.com:preservim/vim-markdown.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/tcomment_vim"]
+	path = bundle/tcomment_vim
+	url = git@github.com:tomtom/tcomment_vim.git

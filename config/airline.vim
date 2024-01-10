@@ -9,8 +9,6 @@ let g:airline_highlighting_cache=1
 " Only load specific airline extensions
 let g:airline_extensions=['tabline']
 
-let g:airline_powerline_fonts=1
-
 " Configure bottom/status bar
 let g:airline_skip_empty_sections=1
 let g:airline_detect_spell=0

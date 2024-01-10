@@ -2,7 +2,7 @@ set nocompatible
 
 " Load up pathogen, using an alternative folder.
 source ~/vim-mobile/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect('~/vim-mobile/{}')
+execute pathogen#infect('~/vim-mobile/bundle/{}')
 
 set encoding=utf-8
 

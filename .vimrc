@@ -80,4 +80,6 @@ set shortmess+=IF
 set shortmess-=S " Show search matches count on search
 
 " Load all the other config files
-runtime! config/**/*.vim
+" The `vim-mobile` path is the subdirectory in which this repo is cloned on
+" the mobile device.
+runtime! vim-mobile/config/**/*.vim

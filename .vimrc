@@ -1,3 +1,9 @@
+set nocompatible
+
+" Load up pathogen, using an alternative folder.
+source ~/vim-mobile/pathogen/autoload/pathogen.vim
+execute pathogen#infect('~/vim-mobile/{}')
+
 set encoding=utf-8
 
 set showcmd                       " Display incomplete commands.
@@ -78,6 +84,8 @@ set lazyredraw
 
 set shortmess+=IF
 set shortmess-=S " Show search matches count on search
+
+colorscheme palenight
 
 " Load all the other config files
 " The `vim-mobile` path is the subdirectory in which this repo is cloned on

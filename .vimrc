@@ -90,6 +90,7 @@ set shortmess-=S " Show search matches count on search
 " the mobile device.
 source vim-mobile/config/autocomplete.vim
 source vim-mobile/config/cursor.vim
+source vim-mobile/config/ctrlp.vim
 source vim-mobile/config/goyo.vim
 source vim-mobile/config/history.vim
 source vim-mobile/config/indenting.vim
